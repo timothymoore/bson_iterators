@@ -20,7 +20,7 @@ algorithms and boost range functionality.
 WARNING: Due to current mongo namespace pollution (in the goodies.h header,
 it has "using namespace boost"), even if you have "using namespace mongo"
 in your implementation, you will need to prefix the begin/end/get_range
-functions with the mongo:: namespadce qualification to avoid get compilation
+functions with the mongo::namespace qualification to avoid get compilation
 errors related to boost range.
 
 This has been tested with Boost 1.42.0 and version 2.0 of the mongodb
