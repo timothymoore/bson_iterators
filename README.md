@@ -9,8 +9,8 @@ the details of that implementation of mongo::BSONObj to iterate
 over the object natively as opposed to simply being a wrapper
 class around BSONObjIterator. 
 
-For bson_iterator, EOO object will not be iterated over and
-returned.  For bson_eoo_iterator, the EOO object *WILL* be iterated over
+For bsonobj_iterator, EOO object will not be iterated over and
+returned.  For bsonobj_eoo_iterator, the EOO object *WILL* be iterated over
 and returned.
 
 bsonobj_iterators are designed to be an STL compliant iterator and is based
