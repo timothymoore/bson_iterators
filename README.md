@@ -3,7 +3,7 @@ bson_iterators
 
 C++ STL compliant iterators for mongoDB BSON objects.
 
-bson_iterators are iterators based on the implementation of the
+bsonobj_iterators are iterators based on the implementation of the
 mongo::BSONObjIterator iterator object.  These iterators rely on
 the details of that implementation of mongo::BSONObj to iterate
 over the object natively as opposed to simply being a wrapper
